@@ -2,7 +2,7 @@
     <div>
       <ul class="list-group">
         <li v-for="country in countries" :key="country.alpha3Code" class="list-group-item">
-          <router-link :to="`/list/${country.alpha3Code}`">{{ country.name.common }}</router-link>
+          <router-link :to="`/country/${country.alpha3Code}`">{{ country.name.common }}</router-link>
         </li>
       </ul>
     </div>
