@@ -1,13 +1,21 @@
 <template>
-  <div class="app">
-
+  <div id="app"
+  class="app">
   </div>
 </template>
 
 <script>
-
+export default {
+  name: "App",
+};
 </script>
 
-<style>
+<script setup>
+import NavBar from "./components/NavBar.vue";
+</script>
 
+<style scoped>
+a {
+  color: #42b983;
+}
 </style>
